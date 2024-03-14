@@ -1,17 +1,17 @@
 class Word
 {
-    private string _text;
+    private string _txt;
     private bool _visible;
 
-    public Word(string text)
+    public Word(string txt)
     {
-        this._text = text;
+        this._txt = txt;
         this._visible = true;
     }
 
     public string GetText()
     {
-        return _text;
+        return _txt;
     }
 
     public bool IsVisible()
